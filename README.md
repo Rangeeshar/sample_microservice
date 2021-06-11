@@ -2,6 +2,7 @@
 This repository has two different micro services written in different languages interact with each other
 
 ### GETTING STARTED
+
 - clone this repository
 - Ensure you already have installed following packages in your system:
     - python3.7
@@ -10,6 +11,7 @@ This repository has two different micro services written in different languages 
     - redis
 
 ## Running nodejs microservice
+
     - go to nodejs_microservice folder and do a `npm install`.
     - now use the command `node node_server.js` to run the server.
     - now visit "http://localhost:8080/generate_id" to get a random 16 digit key.
