@@ -22,3 +22,16 @@ This repository has two different micro services written in different languages 
  - now run teh application using the command `python python_server.py`
  - now visit "http://localhost:8081/api/joke?api_key=<above_fetched_api_key>"
  - you should see a response or an error
+
+**Next Steps**
+- add a dynamic service discovery(CONSUL, ZOOKEEPER, ETCD)
+- an api gateway(KONG, TYK, UMBERLLA)
+- a load balancer(NGINX, APACHE, HAPROXY)
+
+
+**Advanced steps**
+- add a event based model for interprocess communication(REDIS PUBSUB, KAFKA, RABBITMQ)
+- add a multiple serialization and deserialization formats(JSONB, GRPC)
+
+### CONTRIBUTE
+- Feel free to open a pull request if you like to contribute anything and drop a email if takes more than a day to view PR (rangees28@gmail.com)
